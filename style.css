@@ -44,6 +44,7 @@ article{
     padding-bottom: 5px;
 }
 
+/*h1 and p have the same characteristics as they're under the same 'div'*/
 .h1, .p{
     margin: 10px auto;
     clear: both;
@@ -62,10 +63,11 @@ aside{
     margin: 10px;
     float: left;
 }
-
+ /*Added display: inline block so the foother is showed under the two sections and no under the aside section*/
 footer{
     background: #ebebeb;
-    width: 960px;
+    width: 900px;
+    padding: 20px;
     text-align: center;
     margin: 10px;
     display: inline-block;
